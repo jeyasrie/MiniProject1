@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-24T20:49:58 IST" name="Suite" finished-at="2025-03-24T20:52:24 IST" duration-ms="146800">
+    <groups>
+    </groups>
+    <test started-at="2025-03-24T20:49:58 IST" name="Test" finished-at="2025-03-24T20:52:24 IST" duration-ms="146800">
+      <class name="test.TC_004Payment">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_004Payment@2de23121]" started-at="2025-03-24T20:49:58 IST" name="setup" finished-at="2025-03-24T20:49:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_004Payment@2de23121]" started-at="2025-03-24T20:50:54 IST" name="testDetails" finished-at="2025-03-24T20:50:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchingbrowserandloadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_004Payment@2de23121]" started-at="2025-03-24T20:50:55 IST" name="launchingbrowserandloadingURL" finished-at="2025-03-24T20:50:58 IST" duration-ms="2975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowserandloadingURL -->
+        <test-method signature="PurchasePayment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_004Payment@2de23121]" started-at="2025-03-24T20:50:58 IST" name="PurchasePayment" data-provider="readdata" finished-at="2025-03-24T20:51:14 IST" duration-ms="16803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jeyasri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jeya123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rio]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2376579]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2021]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[positive]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Thank you for your purchase!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchasePayment -->
+        <test-method is-config="true" signature="launchingbrowserandloadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_004Payment@2de23121]" started-at="2025-03-24T20:51:15 IST" name="launchingbrowserandloadingURL" finished-at="2025-03-24T20:51:18 IST" duration-ms="3754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowserandloadingURL -->
+        <test-method signature="PurchasePayment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_004Payment@2de23121]" started-at="2025-03-24T20:51:18 IST" name="PurchasePayment" data-provider="readdata" finished-at="2025-03-24T20:51:35 IST" duration-ms="16749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jeyasri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jeya123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[canada]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ontario]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[765478]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2020]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[name  field empty]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Please fill out Name and Creditcard.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchasePayment -->
+        <test-method is-config="true" signature="launchingbrowserandloadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_004Payment@2de23121]" started-at="2025-03-24T20:51:35 IST" name="launchingbrowserandloadingURL" finished-at="2025-03-24T20:51:38 IST" duration-ms="3090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowserandloadingURL -->
+        <test-method signature="PurchasePayment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_004Payment@2de23121]" started-at="2025-03-24T20:51:38 IST" name="PurchasePayment" data-provider="readdata" finished-at="2025-03-24T20:51:55 IST" duration-ms="16662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jeyasri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jeya123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jhon]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[mysore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2022]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[card field empty]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Please fill out Name and Creditcard.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchasePayment -->
+        <test-method is-config="true" signature="launchingbrowserandloadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_004Payment@2de23121]" started-at="2025-03-24T20:51:55 IST" name="launchingbrowserandloadingURL" finished-at="2025-03-24T20:51:58 IST" duration-ms="2895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowserandloadingURL -->
+        <test-method signature="PurchasePayment(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC_004Payment@2de23121]" started-at="2025-03-24T20:51:58 IST" name="PurchasePayment" data-provider="readdata" finished-at="2025-03-24T20:52:15 IST" duration-ms="16587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jeyasri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jeya123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[all field empty]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Please fill out Name and Creditcard.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchasePayment -->
+      </class> <!-- test.TC_004Payment -->
+      <class name="test.Tc_002LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Tc_002LoginTest@587e5365]" started-at="2025-03-24T20:49:58 IST" name="setup" finished-at="2025-03-24T20:49:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.Tc_002LoginTest@587e5365]" started-at="2025-03-24T20:50:13 IST" name="testDetails" finished-at="2025-03-24T20:50:13 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchingbrowserandloadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.Tc_002LoginTest@587e5365]" started-at="2025-03-24T20:50:16 IST" name="launchingbrowserandloadingURL" finished-at="2025-03-24T20:50:19 IST" duration-ms="2906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowserandloadingURL -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Tc_002LoginTest@587e5365]" started-at="2025-03-24T20:50:19 IST" name="login" data-provider="readdata" finished-at="2025-03-24T20:50:21 IST" duration-ms="2491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jeyasri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jeya123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid user valid password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Welcome Jeyasri]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="launchingbrowserandloadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.Tc_002LoginTest@587e5365]" started-at="2025-03-24T20:50:21 IST" name="launchingbrowserandloadingURL" finished-at="2025-03-24T20:50:24 IST" duration-ms="3017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowserandloadingURL -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Tc_002LoginTest@587e5365]" started-at="2025-03-24T20:50:24 IST" name="login" data-provider="readdata" finished-at="2025-03-24T20:50:26 IST" duration-ms="1602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jeyasri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jeya1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid user Invalid password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Wrong password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="launchingbrowserandloadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.Tc_002LoginTest@587e5365]" started-at="2025-03-24T20:50:26 IST" name="launchingbrowserandloadingURL" finished-at="2025-03-24T20:50:29 IST" duration-ms="2737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowserandloadingURL -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Tc_002LoginTest@587e5365]" started-at="2025-03-24T20:50:29 IST" name="login" data-provider="readdata" finished-at="2025-03-24T20:50:31 IST" duration-ms="1681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vaibha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jeya123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid user valid password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[User does not exist.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="launchingbrowserandloadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.Tc_002LoginTest@587e5365]" started-at="2025-03-24T20:50:31 IST" name="launchingbrowserandloadingURL" finished-at="2025-03-24T20:50:35 IST" duration-ms="3916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowserandloadingURL -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Tc_002LoginTest@587e5365]" started-at="2025-03-24T20:50:35 IST" name="login" data-provider="readdata" finished-at="2025-03-24T20:50:37 IST" duration-ms="1708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sudgfd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[surya12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid user Invalid password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[User does not exist.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="launchingbrowserandloadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.Tc_002LoginTest@587e5365]" started-at="2025-03-24T20:50:37 IST" name="launchingbrowserandloadingURL" finished-at="2025-03-24T20:50:40 IST" duration-ms="3134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowserandloadingURL -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.Tc_002LoginTest@587e5365]" started-at="2025-03-24T20:50:40 IST" name="login" data-provider="readdata" finished-at="2025-03-24T20:50:41 IST" duration-ms="902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[login with empty field]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please fill out Username and Password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- test.Tc_002LoginTest -->
+      <class name="test.TC_005LogoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_005LogoutTest@63475ace]" started-at="2025-03-24T20:49:58 IST" name="setup" finished-at="2025-03-24T20:49:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_005LogoutTest@63475ace]" started-at="2025-03-24T20:52:15 IST" name="testDetails" finished-at="2025-03-24T20:52:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchingbrowserandloadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_005LogoutTest@63475ace]" started-at="2025-03-24T20:52:15 IST" name="launchingbrowserandloadingURL" finished-at="2025-03-24T20:52:17 IST" duration-ms="2664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowserandloadingURL -->
+        <test-method signature="logoutfunction()[pri:0, instance:test.TC_005LogoutTest@63475ace]" started-at="2025-03-24T20:52:17 IST" name="logoutfunction" finished-at="2025-03-24T20:52:24 IST" duration-ms="6605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfunction -->
+      </class> <!-- test.TC_005LogoutTest -->
+      <class name="test.TC_001SignupTest">
+        <test-method is-config="true" signature="reportIniatialization()[pri:0, instance:test.TC_001SignupTest@6200f9cb]" started-at="2025-03-24T20:49:57 IST" name="reportIniatialization" finished-at="2025-03-24T20:49:58 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportIniatialization -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_001SignupTest@6200f9cb]" started-at="2025-03-24T20:49:58 IST" name="setup" finished-at="2025-03-24T20:49:58 IST" depends-on-methods="base.ProjectSpecificationMethod.reportIniatialization" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_001SignupTest@6200f9cb]" started-at="2025-03-24T20:49:58 IST" name="testDetails" finished-at="2025-03-24T20:49:58 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchingbrowserandloadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001SignupTest@6200f9cb]" started-at="2025-03-24T20:49:58 IST" name="launchingbrowserandloadingURL" finished-at="2025-03-24T20:50:03 IST" duration-ms="5319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowserandloadingURL -->
+        <test-method signature="RegisterTest()[pri:1, instance:test.TC_001SignupTest@6200f9cb]" started-at="2025-03-24T20:50:03 IST" name="RegisterTest" finished-at="2025-03-24T20:50:05 IST" duration-ms="1669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterTest -->
+        <test-method is-config="true" signature="launchingbrowserandloadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001SignupTest@6200f9cb]" started-at="2025-03-24T20:50:05 IST" name="launchingbrowserandloadingURL" finished-at="2025-03-24T20:50:07 IST" duration-ms="2372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowserandloadingURL -->
+        <test-method signature="existinguser()[pri:2, instance:test.TC_001SignupTest@6200f9cb]" started-at="2025-03-24T20:50:07 IST" name="existinguser" finished-at="2025-03-24T20:50:09 IST" duration-ms="1633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- existinguser -->
+        <test-method is-config="true" signature="launchingbrowserandloadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001SignupTest@6200f9cb]" started-at="2025-03-24T20:50:09 IST" name="launchingbrowserandloadingURL" finished-at="2025-03-24T20:50:12 IST" duration-ms="2580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowserandloadingURL -->
+        <test-method signature="Emptyfield()[pri:3, instance:test.TC_001SignupTest@6200f9cb]" started-at="2025-03-24T20:50:12 IST" name="Emptyfield" finished-at="2025-03-24T20:50:12 IST" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Emptyfield -->
+        <test-method is-config="true" signature="reportClose()[pri:0, instance:test.TC_001SignupTest@6200f9cb]" started-at="2025-03-24T20:52:25 IST" name="reportClose" finished-at="2025-03-24T20:52:26 IST" duration-ms="829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportClose -->
+      </class> <!-- test.TC_001SignupTest -->
+      <class name="test.TC_003CartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_003CartTest@22fcf7ab]" started-at="2025-03-24T20:49:58 IST" name="setup" finished-at="2025-03-24T20:49:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_003CartTest@22fcf7ab]" started-at="2025-03-24T20:50:41 IST" name="testDetails" finished-at="2025-03-24T20:50:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchingbrowserandloadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_003CartTest@22fcf7ab]" started-at="2025-03-24T20:50:41 IST" name="launchingbrowserandloadingURL" finished-at="2025-03-24T20:50:44 IST" duration-ms="2872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingbrowserandloadingURL -->
+        <test-method signature="pdoductfunctionality()[pri:0, instance:test.TC_003CartTest@22fcf7ab]" started-at="2025-03-24T20:50:44 IST" name="pdoductfunctionality" finished-at="2025-03-24T20:50:54 IST" duration-ms="10336" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3c29420704a99c5b37cc5c3b92c0b40, clickElement {id=f.34CDCCF564C42E61BF582E8C90912AE1.d.BF381701FD366B124F2796FBE565FEE5.e.237}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\srije\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64174}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64174/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e3c29420704a99c5b37cc5c3b92c0b40)] -> link text: Sony vaio i7]
+Session ID: e3c29420704a99c5b37cc5c3b92c0b40]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=134.0.6998.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3c29420704a99c5b37cc5c3b92c0b40, clickElement {id=f.34CDCCF564C42E61BF582E8C90912AE1.d.BF381701FD366B124F2796FBE565FEE5.e.237}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.118, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\srije\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64174}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64174/devtoo..., se:cdpVersion: 134.0.6998.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e3c29420704a99c5b37cc5c3b92c0b40)] -> link text: Sony vaio i7]
+Session ID: e3c29420704a99c5b37cc5c3b92c0b40
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+at pages.HomePage.selectLaptop(HomePage.java:77)
+at test.TC_003CartTest.pdoductfunctionality(TC_003CartTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pdoductfunctionality -->
+      </class> <!-- test.TC_003CartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
